@@ -14,7 +14,10 @@ html {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-top: 5px;
     padding: 6px;
+    width: 100vw;
+    height: 48px;
 }
 
 .division1 {
@@ -37,19 +40,63 @@ html {
         
 }
 
+
+
 .user {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     padding: 0px auto 0px 32px;
     
+    
 }
 
-.products {
-    height: 2.4rem;
-    fill: #6D7075;
+a .user {
+    padding: 4px;
+}
+
+.products-container {
+    display: flex;
     padding: 0px 20px 0px 20px;
+    
+}
+.products {
+    align-items: center;
+    justify-content: center;
+    height: 2.6rem;
+    width: 2.6rem;
+    fill: #6D7075;
+    
 }
 
+.division2 a  :hover {
+    background-color: #F0F0F0;
+    border-radius: 50%;
+}
+
+
+
+.logo-container {
+    display: flex;
+    width: 100vw;
+    height: 162px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.input-container {
+    display: flex;
+    width: 100vw;
+    height: 140px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.input-text {
+    width: 582px;
+    height: 44px;
+    border: solid 1px black;
+    border-radius: 25px;
+}
 
 
