@@ -148,6 +148,7 @@ input {
 .botones {
     display: flex;
     width: 100vw;
+    height: 58px;
     justify-content: center;
     padding: 5px 0px 0px 0px;
 }
@@ -171,3 +172,25 @@ input {
     font-size: 1.4rem;
     font-weight: 400;
 }
+
+.enlace {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 245px;
+    width: 100vw;
+}
+
+.enlace p {
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+
+.idioma {
+    color: #1a0dab;
+    text-decoration: none;
+
+}
+
+
