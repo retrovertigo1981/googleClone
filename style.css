@@ -10,15 +10,55 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navegacion {
-    display: flex;
-    align-items: center;
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100vw;
+    height: 60px;
+}
+
+header nav {
+    display: flex;    
     justify-content: flex-end;
     margin-top: 5px;
     padding: 6px;
-    width: 100vw;
-    height: 48px;
+    
 }
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000000DE;
+    
+}
+
+nav .nav-right-section .menu svg {
+    width: 24px;
+    height: 24px;
+    fill: #5f6368;
+   
+
+}
+
+
+
+
+
+
+
+
+
 
 .division1 {
     padding: 0px 4px 0px 32px;
